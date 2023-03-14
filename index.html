@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - I.E.M. Criollo</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="icons/all.css">
+    <link rel="icon" href="img/escudo_16x18.jpg" type="image/jpg">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <div class="img-escudo">
+                <img class="escudo-imagen" src="img/escudo_sin_fondo.png" alt="Escudo">
+            </div>
+            <div class="titulo">
+                <h2>I.E.M. Criollo - Pitalito(Huila)</h2>
+            </div>
+            <input class="check-menu" type="checkbox" id="btn-menu">
+            <label class="menu-hamburger" for="btn-menu"><i class="fas fa-bars"></i></label>
+            <ul class="menu">
+                <li><a href="index.html"><span><i class="fas fa-home"></i></span>Inicio</a></li>
+                <li class="submenu"><a id="id-sub" href="#"><span><i class="fas fa-laptop-house"></i></span>Sedes<i class="fas fa-angle-down"></i></a>
+                   <!--  <ul id="children_id" class="children" onmousewheel="colorRojo()">
+                        <li><a href="sede-principal.html">Sede Principal<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-palmar.html">Sede Palmar<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-albania.html">Sede Albania<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-cabuyo.html">Sede Cabuyo<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-castilla.html">Sede Castilla<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-contador.html">Sede Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-ingaly.html">Sede Ingaly<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-jardin.html">Sede Jardín<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-libano.html">Sede Líbano<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-contador.html">Sede Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-palmeras.html">Sede Palmeras<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-recuerdo.html">Sede Recuerdo<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-rincon-de-contador.html">Sede Rincon de Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-versalles.html">Sede Versalles<span class="fas fa-laptop-house"></span></a></li>
+                    </ul> -->
+                </li>
+                <li><a href="calendario.html"><span class="far fa-calendar-alt"></i></span>Calendario</a></li>
+                <li><a href="contactanos.html"><span class="fas fa-phone"></span>Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--     <header>
+        <div class="menu_bar">
+            <a class="bt-menu" href="#"><span class="fas fa-bars"></span>I.E.M. Criollo</a>
+        </div>
+        <nav>
+            <div class="titulo">
+                 <img src="img/escudo_menu_72x82.jpg" alt="Escudo Menú"> 
+                <h1>I.E.M. Criollo</h1>
+            </div>
+            <ul>
+                <li><a href="index.html"><span><i class="fas fa-home"></i></span>Inicio</a></li>
+                <li class="submenu"><a id="id-sub" href="#"><span class="fas fa-laptop-house"></span>Sedes<p class="down-sedes"><i class="fas fa-angle-down"></i></p></a>
+                    <ul id="children_id" class="children" onmousewheel="colorRojo()">
+                        <li><span class="fas fa-laptop-house"></span><a href="sede-principal.html">Sede Principal</a></li>
+                        <li><a href="sede-palmar.html">Sede Palmar<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-albania.html">Sede Albania<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-cabuyo.html">Sede Cabuyo<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-castilla.html">Sede Castilla<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-contador.html">Sede Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-ingaly.html">Sede Ingaly<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-jardin.html">Sede Jardín<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-libano.html">Sede Líbano<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-contador.html">Sede Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-palmeras.html">Sede Palmeras<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-recuerdo.html">Sede Recuerdo<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-rincon-de-contador.html">Sede Rincon de Contador<span class="fas fa-laptop-house"></span></a></li>
+                        <li><a href="sede-versalles.html">Sede Versalles<span class="fas fa-laptop-house"></span></a></li>
+                    </ul>
+                </li>
+                <li><a href="docentes.html"><span class="fas fa-users"></span> Docentes</a></li>
+                <li><a href="contactanos.html"><span class="fas fa-phone"></span>Contactanos</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <section class="img-2">
+        <!-- Imagen Principal -->
+    </section>
+
+    <!-- <div class="content-escudo">
+        <img class="escudo"src="img/escudo.jpg" alt="Escudo IEM">
+    </div>
+        <h2 class="subtitulo">Nos encontramos trabajando actualmente para poder lanzar muy pronto el sitio web. 
+        Gracias por su comprensión.</h2>-->
+   <div class="main-content"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eligendi neque? Aliquam eaque excepturi exercitationem, ut nemo fugiat assumenda fugit repellendus sit laborum in ratione, omnis mollitia cumque nobis ipsam dolores? Quisquam, illo. Vero tempora voluptates cumque voluptate dicta dolorem nisi quod totam eaque ipsam nemo officia accusantium minus dolor, assumenda consequuntur rerum expedita aperiam amet ut maiores facere ex nulla. Nesciunt cumque aliquid corrupti placeat illo odit asperiores veritatis? Numquam porro reprehenderit nostrum facilis, molestiae commodi recusandae illum? Ad quidem doloribus fugiat perspiciatis reiciendis tempore eaque, distinctio repellendus consequatur natus totam nemo laboriosam nihil nisi esse ab animi! Neque delectus, veritatis dolore labore sint obcaecati sit nihil. Eligendi rem praesentium maiores similique nobis, asperiores alias vero fugit obcaecati temporibus assumenda minus vitae ducimus, animi odio minima adipisci dolorum perspiciatis explicabo! Placeat reiciendis iste possimus magni assumenda dicta, eveniet dolores porro, vero rem blanditiis quas dolorum cum libero. Corrupti, nisi excepturi. Similique obcaecati molestias aliquid autem, quibusdam eveniet commodi sit! Odit, soluta minima! Vitae, amet excepturi! At necessitatibus deleniti dolore mollitia, consectetur perspiciatis earum obcaecati eius maiores asperiores, accusamus consequuntur atque delectus sequi nisi, facere nam aperiam nulla? Adipisci molestias rem, dolorem similique commodi placeat tempora molestiae veniam vero autem reiciendis corporis optio repellendus aperiam alias aliquam facilis ipsam delectus dolores unde. Molestiae perferendis veritatis eaque, placeat tempora accusamus, eius animi laboriosam maiores quidem nemo est ut provident autem aliquid, vero quos qui consectetur! Est a exercitationem distinctio saepe aperiam atque suscipit necessitatibus dolorum inventore quaerat, accusantium, consequuntur voluptatibus. Exercitationem alias quisquam iste? Necessitatibus omnis harum commodi delectus cupiditate asperiores distinctio facilis magnam velit, nam, esse labore amet atque beatae optio accusantium repellendus quod impedit accusamus consequuntur totam. Dolorum suscipit ad consequuntur inventore, maxime saepe est, sint quam accusantium nulla soluta nesciunt magni? Architecto eveniet harum sed recusandae quibusdam quos quod quis perferendis repellat pariatur, ipsa facilis neque eligendi ullam maiores similique totam, aperiam saepe laboriosam nostrum a laborum deserunt cum quas! Quisquam pariatur earum officiis et. Tempora, dolorem ipsam, est, accusantium nulla minus possimus unde laudantium voluptatem commodi soluta odit nisi? Commodi reiciendis quae impedit, voluptate officia quos aspernatur laborum delectus reprehenderit libero similique magnam? Harum officiis excepturi quae dolor tenetur iusto perspiciatis modi quisquam cumque doloremque. Voluptas quas aspernatur at nisi veritatis, vitae rerum eos magni dolorem odit eligendi natus doloribus dolores corporis iusto quo velit expedita libero quisquam nobis, blanditiis ipsum. Beatae, ullam iusto ratione placeat molestiae deserunt vel est magni. Sapiente ducimus itaque esse atque nesciunt, incidunt eos quisquam commodi enim officiis? Voluptas ut non asperiores fuga qui quos. Quisquam, laudantium delectus? Accusantium voluptatum minus quos assumenda eius consequuntur non vitae obcaecati nihil provident, iusto tempore qui laboriosam quia illum dolor quo nisi et officia omnis, accusamus nemo! Qui, incidunt error. Corporis aut cupiditate, odio quisquam nostrum officiis tenetur tempora, soluta laborum necessitatibus maiores in. Veritatis autem a repudiandae, maxime numquam ex voluptates nihil minima quae doloribus officia est cum deleniti, vero obcaecati ipsum, nam hic. Excepturi nulla autem numquam atque voluptatem, animi vel placeat earum.
+
+    </div>
+</body>
+</html>
