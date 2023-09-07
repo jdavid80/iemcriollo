@@ -7,6 +7,26 @@ h1 {
     text-align: left;
     display: block;
 }
+.subtitle {
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 2.2em;
+    margin: 70px;
+}
+.sub-subtitle {
+    font-family: verdana, sans-serif;
+    font-size: 1.8em;
+    margin: 30px 20px;
+}
+.article-content {
+    margin: 0 150px;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+.img-symbol {
+    display: block;
+    margin: 0 auto;
+}
 /* section.img-1 {
     background: url("../img/img-principal_2560x1702.jpg");
     background-repeat: no-repeat;
@@ -198,6 +218,27 @@ div.content-escudo {
         top: 10px;
         display: none;
         cursor: pointer;
+    }
+    .subtitle {
+        text-align: center;
+        font-family: verdana, sans-serif;
+        font-size: 1.5em;
+        margin: 50px 10px;
+    }
+    .sub-subtitle {
+        font-family: verdana, sans-serif;
+        font-size: 1.8em;
+        margin: 30px 20px;
+    }
+    .article-content {
+        margin: 0 15px;
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+    .img-symbol {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
     }
 /*     body {
         padding-top: 80px;
